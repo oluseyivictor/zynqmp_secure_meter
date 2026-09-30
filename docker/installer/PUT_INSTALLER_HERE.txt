@@ -1,0 +1,11 @@
+Download the PetaLinux 2020.1 installer from the AMD/Xilinx downloads
+portal (requires a free AMD account) and place it in this directory as:
+
+    petalinux-v2020.1-final-installer.run
+
+Search "PetaLinux 2020.1" on xilinx.com/support/download or
+account.amd.com if the direct link has moved. This file is a large,
+individually-licensed binary and can't be fetched automatically.
+
+Once it's here, script/docker-setup.sh will build the Docker image
+automatically the first time you run it.
